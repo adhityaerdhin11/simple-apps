@@ -6,4 +6,4 @@ COPY . /app/
 RUN npm install
 #Menunjukkan Aplikasi port 3000
 EXPOSE 3000
-CMD [ "npm start" ]
+CMD ["npm","start"]
