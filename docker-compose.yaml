@@ -10,4 +10,4 @@ services:
       - vol-simple:/app/public/images/
   
 volumes:
-  vol-2048:
+  vol-simple:
