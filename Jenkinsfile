@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Pull SCM') {
             steps {
-                git branch: 'main', url: 'https://github.com/adhityaerdhin11/simple-apps-new.git'
+                git branch: 'main', url: 'https://github.com/adhityaerdhin11/simple-apps.git'
             }
         }
         
